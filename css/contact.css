@@ -45,7 +45,7 @@ background-size: cover;
   height: 110px;
   line-height: 120px;
   margin: 20px 40px 40px 40px;
-}
+  }
 
 nav ul {
   list-style: none;
@@ -56,7 +56,7 @@ nav ul {
 nav.main_navigation {
   position:relative;
   height:150px;
-  display: block;
+  display: block; 
 }
 
 nav.main_navigation ul {
@@ -79,12 +79,14 @@ nav.main_navigation li {
   border-left: 3px solid rgb(212,213,218);
 }
 
+
 .box_a {
   font-family:'Chewy', sans-serif; 
   font-size: 20px;
   color: rgb(212,213,218);
   text-decoration: none; 
 }
+
 
 nav.main_navigation li:hover{
 font-size: 25px;
@@ -98,36 +100,27 @@ font-size: 25px;
   width: 900px;
 }
 
-.tekst h3{
+.tekstc h3{
   font-family: 'Oswald', sans-serif; 
   color: rgb(136,139,148);
   font-size: 20px;
-  margin: 40px 35px;
+  margin: 45px 30px;
   line-height: 35px;
   text-align: justify;
 }
 
-.fotovoorstel{
-   margin: 15px 0px 15px 0px;
-   border: 2px solid rgb(136,139,148);
+.map{
+  margin: 50px 0px 5px 0px;
+  border: 2px solid rgb(136,139,148);
 }
 
-.voorstel{
-  margin: 25px 0px 25px 0px;
-}
-
-.footertekst{
-  font-family: 'Oswald', sans-serif; 
-  color: rgb(212,213,218);
+.contacttekst h3{
   font-size: 15px;
-  margin: 0px 0px 20px 0px;
-}
-
-.footer-wrapper{
-  background-color: rgb(136,139,148);
-  padding: 0 0;
-  height: 130px;
-  padding: 20px;
+  font-family: 'Oswald', sans-serif; 
+  color: rgb(136,139,148);
+  text-align: center;
+  line-height: 25px;
+  margin: 0px 0px 0px 300px; 
 }
 
 .media1{
@@ -148,10 +141,20 @@ left: 200px;
 top: 30px;
 }
 
-.bijschrift h3{
-  font-family: 'Oswald', sans-serif; 
-  color: rgb(136,139,148);
-  font-size: 15px;
-  line-height: 30px;
-  margin: 60px 0px 0px 0px;
+.media1c{
+position: absolute;
+left: 150px;
+top: 400px;
+}
+
+.media2c{
+position: absolute;
+left: 200px;
+top: 400px;
+}
+
+.media3c{
+position: absolute;
+left: 250px;
+top: 400px;
 }
