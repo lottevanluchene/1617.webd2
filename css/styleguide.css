@@ -1,0 +1,151 @@
+@import url('https://fonts.google.com/specimen/Chewy');
+@import url('https://fonts.google.com/specimen/Oswald');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.tekst h1{
+  font-family: 'Oswald', sans-serif; 
+  color: rgb(136,139,148);
+  font-size: 30px;
+  margin: 35px 35px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.tekst h2{
+  font-family: 'Oswald', sans-serif; 
+  color: rgb(136,139,148);
+  font-size: 20px;
+  margin: 20px 35px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.tekst p{
+  font-family: 'Oswald', sans-serif; 
+  color: rgb(136,139,148);
+  font-size: 15px;
+  margin: 10px 35px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.tekst {
+  font-family: 'Oswald', sans-serif; 
+  color: rgb(136,139,148);
+  font-size: 15px;
+  margin: 10px 35px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.content_container{
+  background-color: rgba(212,213,218,0.70);
+  border: 5px solid rgb(136,139,148);
+  height: 1000px;
+  margin: 50px 225px 150px 270px;
+  width: 800px;
+
+.button {
+    border-radius: .25em;
+    border-style: solid;
+    border-width: 0 0 .25em;
+    display: inline-block;
+    font-weight: bold;
+    padding: .25em .5em;
+    text-decoration: none;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button--default,
+.button--default:active,
+.button--default:visited {
+    background-color:    hsl(  0,  0%,  55%);
+    border-bottom-color: hsl(  0,  0%,  33%);
+    color: #FFF;
+}
+.button--default:hover {
+    background-color:    hsl(  0,  0%,  44%);
+    border-bottom-color: hsl(  0,  0%,  22%);
+    color: #FFF;
+}
+.button--primary,
+.button--primary:active,
+.button--primary:visited {
+    background-color:    hsl(240,  66%,  55%);
+    border-bottom-color: hsl(240,  66%,  33%);
+    color: #FFF;
+}
+.button--primary:hover {
+    background-color:    hsl(240,  66%,  44%);
+    border-bottom-color: hsl(240,  55%,  22%);
+    color: #FFF;
+}
+.button--danger,
+.button--danger:active,
+.button--danger:visited {
+    background-color:    hsl(  0,  66%,  55%);
+    border-bottom-color: hsl(  0,  66%,  33%);
+    color: #FFF;
+}
+.button--danger:hover {
+    background-color:    hsl(  0,  66%,  44%);
+    border-bottom-color: hsl(  0,  55%,  22%);
+    color: #FFF;
+}
+.button--success,
+.button--success:active,
+.button--success:visited {
+    background-color:    hsl(120,  66%,  55%);
+    border-bottom-color: hsl(120,  66%,  33%);
+    color: #FFF;
+}
+.button--success:hover {
+    background-color:    hsl(120,  66%,  44%);
+    border-bottom-color: hsl(120,  55%,  22%);
+    color: #FFF;
+}
+
+.colours__colour--a {
+    background-color: hsl( 0, 100%, 40%);
+}
+.colours__colour--b {
+    background-color: hsl( 60, 100%, 40%);
+}
+.colours__colour--c {
+    background-color: hsl(120, 100%, 40%);
+}
+.colours__colour--d {
+    background-color: hsl(180, 100%, 40%);
+}
+.colours__colour--e {
+    background-color: hsl(240, 100%, 40%);
+}
+.colours__colour--f {
+    background-color: hsl(300, 100%, 40%);
+}
+
+.keywords__keyword--a {
+    color: hsl(  0, 100%, 40%);
+    font-size: 3.75rem;
+}
+.keywords__keyword--b {
+    color: hsl(180, 100%, 40%);
+    font-size: 1.5rem;
+}
+.keywords__keyword--c {
+    color: hsl(240, 100%, 40%);
+    font-size: 2.5rem;
+}
+.keywords__keyword--d {
+    color: hsl(300, 100%, 40%);
+    font-size: 3.25rem;
+}
